@@ -1,0 +1,125 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero video {
+    max-width: 100%;
+    height: auto;
+}
+
+.about {
+    padding: 50px;
+    text-align: center;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+}
+
+.profile {
+    padding: 50px;
+}
+
+.profile table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile th, .profile td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Profil */
+.profile table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .profile th,
+  .profile td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Ekstrakurikuler */
+  .extracurricular-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .extracurricular-list li {
+    margin: 20px;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .extracurricular-list li img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Galeri */
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin: 10px;
+    max-width: 300px;
+    height: auto;
+  }
+
+  img {
+    /* width: 100%;
+    height: 300px; /* Atur tinggi yang diinginkan */
+    /*object-fit: cover; */
+    width: 30%;
+    height: 100px;
+  }
